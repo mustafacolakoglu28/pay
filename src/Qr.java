@@ -1,6 +1,4 @@
 public class Qr implements PaymentManager {
-    //private String updatedItem;
-
 
     @Override
     public void Add() {
@@ -12,4 +10,6 @@ public class Qr implements PaymentManager {
     public void Update() {
         System.out.println("Qr islemi guncellendi");
     }
+
+
 }
