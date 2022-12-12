@@ -1,13 +1,15 @@
 public class CreditCard implements PaymentManager{
 
+
+
     @Override
-    public void Add() {
+    public void add() {
         System.out.println("CreditCard metodu ile odeme gecildi");
 
     }
 
     @Override
-    public void Update() {
+    public void update() {
         System.out.println("CreditCard islemi guncellendi");
 
 

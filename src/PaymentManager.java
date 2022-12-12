@@ -1,4 +1,4 @@
 public interface PaymentManager {
-    void Add();
-    void Update();
+    void add();
+    void update();
 }
