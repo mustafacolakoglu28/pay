@@ -1,6 +1,6 @@
-public class PaymentCreate {
+public class Payments {
     private PaymentManager[] payments;
-    PaymentCreate(PaymentManager[] payments){
+    Payments(PaymentManager[] payments){
         this.payments= payments;
     }
     public void create(){
